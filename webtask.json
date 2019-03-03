@@ -1,14 +1,13 @@
 {
-  "title": "Auth0 Duo MFA Extension",
-  "name": "duo-extension",
+  "title": "Auth0 Extension Boilerplate",
+  "name": "auth0-extension-boilerplate",
   "version": "1.0.0",
-  "author": "yperevoznikov",
-  "description": "MFA via duo for auth0",
+  "author": "auth0",
+  "description": "This is a Hello World extension",
   "type": "application",
-  "repository": "https://github.com/yperevoznikov/duo-extension",
+  "repository": "https://github.com/auth0/auth0-extension-boilerplate",
   "keywords": [
     "auth0",
-    "extension",
-    "mfa"
+    "extension"
   ]
 }

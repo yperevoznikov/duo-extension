@@ -1,0 +1,26 @@
+{
+  "name": "auth0-ext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wt-bundle server.js -o ./build/bundle.js && node ./build/bundle.js",
+    "bundle": "wt-bundle webtask.js -o ./build/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yperevoznikov/duo-extension.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yperevoznikov/duo-extension/issues"
+  },
+  "homepage": "https://github.com/yperevoznikov/duo-extension#readme",
+  "dependencies": {
+    "auth0-oauth2-express": "1.1.10",
+    "express": "4.14.0",
+    "lodash.clone": "^4.5.0",
+    "webtask-tools": "1.2.0"
+  }
+}
