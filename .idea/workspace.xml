@@ -17,8 +17,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="210">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="16" selection-end-column="6" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -37,6 +37,7 @@
       <find>server</find>
       <find>indexof</find>
       <find>version</find>
+      <find>router</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -235,12 +236,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551623945020</updated>
       <workItem from="1551623948698" duration="1413000" />
-      <workItem from="1551625653284" duration="6695000" />
+      <workItem from="1551625653284" duration="6836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8108000" />
+    <option name="totallyTimeSpent" value="8249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1109" extended-state="6" />
@@ -627,10 +628,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <marker date="1551633427000" expanded="true" signature="0:633" ph="{&quot;name&quot;: &quot;auth0-ext&quot;...}" />
+            <marker date="1551633427000" expanded="true" signature="104:250" ph="{&quot;start&quot;: &quot;wt-bundle server.js -o ./build/bundle.js &amp;&amp; node ./build/bundle.js&quot;...}" />
+            <marker date="1551633427000" expanded="true" signature="268:360" ph="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1551633427000" expanded="true" signature="408:480" ph="{&quot;url&quot;: &quot;https://github.com/yperevoznikov/duo-extension/issues&quot;...}" />
+            <marker date="1551633427000" expanded="true" signature="571:631" ph="{&quot;express&quot;: &quot;4.12.4&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webtask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="60" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="60" />
+          <folding>
+            <marker date="1551634060000" expanded="true" signature="41:194" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+        <state relative-caret-position="164">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="17" />
           <folding>
             <marker date="1431922109000" expanded="true" signature="1:32" ph="/** Module dependencies. ...*/" />
             <marker date="1431922109000" expanded="true" signature="330:358" ph="/** Module variables. ...*/" />
@@ -736,34 +761,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <marker date="1551633427000" expanded="true" signature="0:633" ph="{&quot;name&quot;: &quot;auth0-ext&quot;...}" />
-            <marker date="1551633427000" expanded="true" signature="104:250" ph="{&quot;start&quot;: &quot;wt-bundle server.js -o ./build/bundle.js &amp;&amp; node ./build/bundle.js&quot;...}" />
-            <marker date="1551633427000" expanded="true" signature="268:360" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1551633427000" expanded="true" signature="408:480" ph="{&quot;url&quot;: &quot;https://github.com/yperevoznikov/duo-extension/issues&quot;...}" />
-            <marker date="1551633427000" expanded="true" signature="571:631" ph="{&quot;express&quot;: &quot;4.12.4&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webtask.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="60" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="60" />
-          <folding>
-            <marker date="1551634060000" expanded="true" signature="41:194" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="210">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="16" selection-end-column="6" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
