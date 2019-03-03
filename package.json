@@ -21,7 +21,7 @@
   "dependencies": {
     "auth0-oauth2-express": "^1.1.10",
     "edge": "^7.10.1",
-    "express": "^4.16.4",
-    "webtask-tools": "^3.4.0"
+    "express": "4.14.0",
+    "webtask-tools": "1.2.0"
   }
 }
