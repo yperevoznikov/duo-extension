@@ -13,8 +13,8 @@ app.get('/', (req, res) => {
     body: '<h1>Simple webtask view</h1>'
   });
 
-res.set('Content-Type', 'text/html');
-res.status(200).send(HTML);
+  res.set('Content-Type', 'text/html');
+  res.status(200).send(HTML);
 });
 
 module.exports = fromExpress(app);
