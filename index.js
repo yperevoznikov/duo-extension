@@ -1,23 +1,12 @@
-// var express  = require('express');
-// var app      = express();
-//
-// app.get('/', function (req, res) {
-//   res.status(200).send('Hello world!');
-// });
-//
-// module.exports = app;
+var express    = require('express');
+var Webtask    = require('webtask-tools');
+var bodyParser = require('body-parser');
+var app = express();
 
-var Webtask = require('webtask-tools');
-var express  = require('express');
-// var app      = express();
-var app = express.Router()
+app.use(bodyParser.json());
 
-// app.get('/', function (req, res) {
-//   res.status(200).send('Hello world!');
-// });
+app.get('/', function (req, res) {
+  res.sendStatus(200);
+});
 
-// app.listen(port, function () {
-//   console.log('Server started on port', port);
-// })
-
-module.exports = Webtask.fromExpress(app);;
+module.exports = Webtask.fromExpress(app);
