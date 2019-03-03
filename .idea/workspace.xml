@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8786e3b5-626e-4e9f-99ed-a8f692df3d08" name="Default" comment="" />
+    <list default="true" id="8786e3b5-626e-4e9f-99ed-a8f692df3d08" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="315">
+              <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -190,12 +193,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551623945020</updated>
       <workItem from="1551623948698" duration="1413000" />
-      <workItem from="1551625653284" duration="212000" />
+      <workItem from="1551625653284" duration="324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1625000" />
+    <option name="totallyTimeSpent" value="1737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1109" extended-state="6" />
@@ -237,13 +240,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding>
-            <marker date="1551625773000" expanded="true" signature="0:752" ph="{&quot;name&quot;: &quot;auth0-ext&quot;...}" />
-            <marker date="1551625773000" expanded="true" signature="103:308" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1551625773000" expanded="true" signature="326:418" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1551625773000" expanded="true" signature="466:538" ph="{&quot;url&quot;: &quot;https://github.com/yperevoznikov/duo-extension/issues&quot;...}" />
-            <marker date="1551625773000" expanded="true" signature="629:750" ph="{&quot;auth0-oauth2-express&quot;: &quot;^1.1.10&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -276,6 +273,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <marker date="1551625048000" expanded="true" signature="93:143" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webtask.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -288,22 +295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <marker date="1551625773000" expanded="true" signature="0:752" ph="{&quot;name&quot;: &quot;auth0-ext&quot;...}" />
-            <marker date="1551625773000" expanded="true" signature="103:308" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1551625773000" expanded="true" signature="326:418" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1551625773000" expanded="true" signature="466:538" ph="{&quot;url&quot;: &quot;https://github.com/yperevoznikov/duo-extension/issues&quot;...}" />
-            <marker date="1551625773000" expanded="true" signature="629:750" ph="{&quot;auth0-oauth2-express&quot;: &quot;^1.1.10&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="315">
+          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding />
         </state>
       </provider>
