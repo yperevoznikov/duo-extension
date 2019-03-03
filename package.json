@@ -18,8 +18,7 @@
   },
   "homepage": "https://github.com/yperevoznikov/duo-extension#readme",
   "dependencies": {
-    "auth0-oauth2-express": "^1.1.10",
-    "express": "4.14.0",
-    "webtask-tools": "1.2.0"
+    "express": "^4.16.4",
+    "webtask-tools": "^3.4.0"
   }
 }
