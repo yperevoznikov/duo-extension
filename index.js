@@ -7,6 +7,7 @@
 //
 // module.exports = app;
 
+var Webtask = require('webtask-tools');
 var express  = require('express');
 // var app      = express();
 var app = express.Router()
@@ -19,4 +20,4 @@ app.get('/', function (req, res) {
 //   console.log('Server started on port', port);
 // })
 
-module.exports = app;
+module.exports = Webtask.fromExpress(app);;
