@@ -1,0 +1,23 @@
+{
+  "name": "auth0-ext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yperevoznikov/duo-extension.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yperevoznikov/duo-extension/issues"
+  },
+  "homepage": "https://github.com/yperevoznikov/duo-extension#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "webtask-tools": "^3.4.0"
+  }
+}
