@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wt-bundle server.js -o ./build/bundle.js && node ./build/bundle.js",
+    "bundle": "wt-bundle webtask.js -o ./build/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/yperevoznikov/duo-extension#readme",
   "dependencies": {
+    "auth0-oauth2-express": "^1.1.10",
     "express": "^4.16.4",
     "webtask-tools": "^3.4.0"
   }
