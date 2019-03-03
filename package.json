@@ -20,6 +20,7 @@
   "homepage": "https://github.com/yperevoznikov/duo-extension#readme",
   "dependencies": {
     "auth0-oauth2-express": "^1.1.10",
+    "edge": "^7.10.1",
     "express": "^4.16.4",
     "webtask-tools": "^3.4.0"
   }
